@@ -109,3 +109,42 @@
 // var total =
 //   item1Price * quantityItem1 + item2Price * quantityItem2 + shippingCharges;
 // document.write("Total Cost Of Your Order Is ", total);
+
+// ==== Q-8 ====
+// var markSheet = "<h1> Mark Sheet </br> </h1>";
+// var totalMarks = 980;
+// document.write("Total Marks:: " , totalMarks,"</br>")
+// var markObtained = 804;
+// document.write("Total Marks:: " , markObtained,"</br>")
+// var calculation = markObtained * 100 / totalMarks
+// var percentage = calculation
+// document.write("Percentage:" , " ", percentage)
+
+// ==== Q-9 ====
+// var currency = "<h1> Currency in Pkr </br> </h1>";
+// document.write(currency);
+// var usDollar = 10;
+// var usdRate = 104.80;
+// var saRiyal = 25;
+// var sarRate = 28;
+// var result = usDollar * usdRate + saRiyal * sarRate;
+// document.write("Total Currency In PKR :"," ",result)
+
+// ==== Q-10 ====
+// var myNumber = 5 
+// myNumber = (myNumber + 5) * 10 / 2 ;
+// document.write(myNumber)
+
+// ==== Q-11 ====
+// var ageCalculator = "<h1> Age Calculator </br> </h1>";
+// document.write(ageCalculator)
+// var currentYear = 2016
+// document.write("Current Year :",currentYear,"</br>")
+// var birthYear = 1992;
+// document.write("BirthYear Is : ",birthYear,"</br>");
+// var ageCalculate = currentYear - birthYear;
+// document.write("Your Age Is : ",ageCalculate)
+
+// ==== Q-12 ====
+// 12. The Geometrizer: Calculate properties of a circle.
+// a. Store a radius into a variable.
