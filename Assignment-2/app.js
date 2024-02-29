@@ -60,4 +60,5 @@
 // document.write("4*7=", four1 * 7, "<br>");
 // document.write("4*8=", four1 * 8, "<br>");
 // document.write("4*9=", four1 * 9, "<br>");
-// document.write("4*10=", four1 * 10, "<br>");
+// document.write("4*10=", four1 * 10, "<br>") ;  
+sfsddf
