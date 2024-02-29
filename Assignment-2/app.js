@@ -44,25 +44,34 @@
 
 // ==== Q-3 ====
 // (A)
-var myVar;
-// (B)
-document.write("value after declaration is ", myVar, "</br>");
-// (C)
-myVar = 5;
-// (D)
-document.write("initial Value of variable is ", myVar, "</br>");
-// (E)
-myVar = myVar + 1;
-// (F)
-document.write("value after increment is ", myVar, "</br>");
-// (G)
-myVar = myVar + 7;
-// (H)
-document.write("value after addition is ", myVar, "</br>");
-// (I)
-myVar = myVar - 1;
-// (J)
-document.write("value after decrement is ", myVar);
+// var myVar;
+// // (B)
+// document.write("value after declaration is ", myVar, "</br>");
+// // (C)
+// myVar = 5;
+// // (D)
+// document.write("initial Value of variable is ", myVar, "</br>");
+// // (E)
+// myVar = myVar + 1;
+// // (F)
+// document.write("value after increment is ", myVar, "</br>");
+// // (G)
+// myVar = myVar + 7;
+// // (H)
+// document.write("value after addition is ", myVar, "</br>");
+// // (I)
+// myVar = myVar - 1;
+// // (J)
+// document.write("value after decrement is ", myVar, "</br>");
+// // (K)
+// myVar = myVar % 3
+// // (L)
+// document.write("Output : “The remainder is :", myVar," ","“")
+
+// ==== Q-4 ====
+// var ticketPrice = 600;
+// ticketPrice = ticketPrice * 5;
+// document.write("total cost to buy 5 tickets of movie is ",ticketPrice," ","PKR")
 
 // ==== Q-5 ====
 
@@ -79,3 +88,24 @@ document.write("value after decrement is ", myVar);
 // document.write("4*8=", four1 * 8, "<br>");
 // document.write("4*9=", four1 * 9, "<br>");
 // document.write("4*10=", four1 * 10, "<br>") ;
+
+// ==== Q-6 ====
+// The Temperature Converter: It’s hot out! Let’s make a
+// converter based on the steps here.
+
+// ==== Q-7 ====
+// var heading = "<h1>Shopping Cart</h1>";
+// document.write(heading, "</br>");
+// var item1Price = 650;
+// document.write("Price OF Item 1:: ", item1Price, "</br>");
+// var quantityItem1 = 3;
+// document.write("Quantity OF Item 1:: ", quantityItem1, "</br>");
+// var item2Price = 100;
+// document.write("Price OF Item 2:: ", item2Price, "</br>");
+// var quantityItem2 = 7;
+// document.write("Quantity OF Item 2:: " , quantityItem2  ,"</br>")
+// var shippingCharges = 100;
+// document.write("Shipping Charges:: " , shippingCharges  ,"</br>")
+// var total =
+//   item1Price * quantityItem1 + item2Price * quantityItem2 + shippingCharges;
+// document.write("Total Cost Of Your Order Is ", total);
