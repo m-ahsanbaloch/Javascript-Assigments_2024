@@ -21,19 +21,20 @@
 // var sum = incr
 // console.log(sum)
 
+// ==== Q-2 ====
 // ==== Substract ====
 // var subs = 5 - 3
-// var sum = subs 
+// var sum = subs
 // console.log(sum)
 
 // ==== Multi ====
 // var mult = 5 * 3
-// var sum = mult 
+// var sum = mult
 // console.log(sum)
 
 // ==== Division ====
 // var div = 5 / 3
-// var sum = div 
+// var sum = div
 // console.log(sum)
 
 // ==== Modulus / Reminder ====
@@ -41,10 +42,27 @@
 // var sum = rem ;
 // console.log(sum)
 
-
-
-
-
+// ==== Q-3 ====
+// (A)
+var myVar;
+// (B)
+document.write("value after declaration is ", myVar, "</br>");
+// (C)
+myVar = 5;
+// (D)
+document.write("initial Value of variable is ", myVar, "</br>");
+// (E)
+myVar = myVar + 1;
+// (F)
+document.write("value after increment is ", myVar, "</br>");
+// (G)
+myVar = myVar + 7;
+// (H)
+document.write("value after addition is ", myVar, "</br>");
+// (I)
+myVar = myVar - 1;
+// (J)
+document.write("value after decrement is ", myVar);
 
 // ==== Q-5 ====
 
@@ -60,5 +78,4 @@
 // document.write("4*7=", four1 * 7, "<br>");
 // document.write("4*8=", four1 * 8, "<br>");
 // document.write("4*9=", four1 * 9, "<br>");
-// document.write("4*10=", four1 * 10, "<br>") ;  
-sfsddf
+// document.write("4*10=", four1 * 10, "<br>") ;
