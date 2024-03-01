@@ -74,7 +74,7 @@
 // document.write("total cost to buy 5 tickets of movie is ",ticketPrice," ","PKR")
 
 // ==== Q-5 ====
-
+ 
 // var table = "Table of 4 <br><br>";
 // document.write(table)
 // var four1 = 4;
