@@ -148,3 +148,20 @@
 // ==== Q-12 ====
 // 12. The Geometrizer: Calculate properties of a circle.
 // a. Store a radius into a variable.
+
+// ==== Q-13 ====
+// var chocoTitle = "<h1>The Lifetime Supply Calculator: </h1>";
+// document.write(chocoTitle , "</br>")
+// var fSnack = "Chocolate Chip By Lu";
+// document.write("Favourite Snack :" ,fSnack, "</br>")
+// var cAge = 15;
+// document.write("Current Age IS: ",cAge, "</br>")
+// var mAge = 65;
+// document.write("Max Age IS But ALLAH Knows Only : ",mAge, "</br>")
+// var amountConsume = 3;
+// document.write("Amount of Snack PerDay You Consume: ",amountConsume,"</br>")
+// var totalConsumeTillLife = amountConsume * 30 * 12 *  (mAge - cAge)  
+// var result = "You will need " + totalConsumeTillLife + " " + fSnack + " "  + "to Consume Till The age OF :" + mAge
+// document.write(result)
+
+// ****************** Chapter-5-End ****************
