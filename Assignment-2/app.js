@@ -131,7 +131,7 @@
 // document.write("Total Currency In PKR :"," ",result)
 
 // ==== Q-10 ====
-// var myNumber = 5 
+// var myNumber = 5
 // myNumber = (myNumber + 5) * 10 / 2 ;
 // document.write(myNumber)
 
@@ -160,13 +160,100 @@
 // document.write("Max Age IS But ALLAH Knows Only : ",mAge, "</br>")
 // var amountConsume = 3;
 // document.write("Amount of Snack PerDay You Consume: ",amountConsume,"</br>")
-// var totalConsumeTillLife = amountConsume * 30 * 12 *  (mAge - cAge)  
+// var totalConsumeTillLife = amountConsume * 30 * 12 *  (mAge - cAge)
 // var result = "You will need " + totalConsumeTillLife + " " + fSnack + " "  + "to Consume Till The age OF :" + mAge
 // document.write(result)
 
 // ****************** Chapter-5-End ****************
- 
+
 // ****************** Chapter-6-9- ****************
 // ==== Q-1 ====
-    
+// var a = 10
+// a++
+// document.write("now the value of a is: ",a,"</br>")
+// a++
+// document.write("now the value of a is: ",a,"</br>")
+// --a
+// document.write("now the value of a is: ",a,"</br>")
+// a--
+// document.write("now the value of a is: ",a,"</br>")
 
+// ==== Q-2 ====
+// var a =2, b = 1;
+
+// --a;
+// document.write("--a :",a,"</br>")
+// --a - --b
+// document.write("--a - --b :",a + " " + b,"</br>")
+// --a - --b + ++b;
+// document.write("--a - --b + ++b :"+ " " + a + " " + b,"</br>")
+// --a - --b + ++b + b--;
+// document.write("--a - --b + ++b + b--:"+ " " + a + " " + b,"</br>")
+// document.write("result is :" ,"a " + " " + a +", " + "b " + " " + b)
+
+// ==== Q-3 ====
+// var user = prompt("Enter your name:","Enter your name")
+// alert("Welcome " + user + " Sahab")
+// ==== Q-5 ====
+// var userNum = +prompt("Enter Your Desired Number","Only one number")
+// if(userNum === 2){
+//     var two = 2;
+//     var document2 = document.write("2*1=", two, "<br>");
+//     document.write("2*2=", two * 2, "<br>");
+//     document.write("2*3=", two * 3, "<br>");
+//     document.write("2*4=", two * 4, "<br>");
+//     document.write("2*5=", two * 5, "<br>");
+//     document.write("2*6=", two * 6, "<br>");
+//     document.write("2*7=", two * 7, "<br>");
+//     document.write("2*8=", two * 8, "<br>");
+//     document.write("2*9=", two * 9, "<br>");
+//     document.write("2*10=", two * 10, "<br>") ;
+// document.write(document2)
+
+// }
+// else if(userNum === 4){
+//     var four1 = 4
+//     document.write("4*1=", four1, "<br>");
+// document.write("4*2=", four1 * 2, "<br>");
+// document.write("4*3=", four1 * 3, "<br>");
+// document.write("4*4=", four1 * 4, "<br>");
+// document.write("4*5=", four1 * 5, "<br>");
+// document.write("4*6=", four1 * 6, "<br>");
+// document.write("4*7=", four1 * 7, "<br>");
+// document.write("4*8=", four1 * 8, "<br>");
+// document.write("4*9=", four1 * 9, "<br>");
+// document.write("4*10=", four1 * 10, "<br>") ;
+// }
+// else{
+//     var five = 5
+// document.write("5*1=", five, "<br>");
+// document.write("5*2=", five * 2, "<br>");
+// document.write("5*3=", five * 3, "<br>");
+// document.write("5*4=", five * 4, "<br>");
+// document.write("5*5=", five * 5, "<br>");
+// document.write("5*6=", five * 6, "<br>");
+// document.write("5*7=", five * 7, "<br>");
+// document.write("5*8=", five * 8, "<br>");
+// document.write("5*9=", five * 9, "<br>");
+// document.write("5*10=", five * 10, "<br>") ;
+// }
+// ==== Q-6 ====
+// document.write("<tr><h1><th>subject  </th><th>Total Marks  </th><th>Obtain Marks  </th><th> Percentage </th></h1></tr> ")
+// var subject1 = prompt("Enter Subject One")  ;
+// var totalMarks = 100;
+// var marksSub1 = parseFloat(prompt("Enter Obtained Marks"  + "  " + subject1 ))
+// document.write("<h2><tr>" + "<td>" + subject1 + "   " + "</td>" + "<td>" + totalMarks + " " + "</td>" + "  " + "<td>" + marksSub1 + "  " + "</td>" + "  " + marksSub1 / totalMarks * totalMarks+"%" + "</td>" + "<tr><h2>")
+
+// var subject2 = prompt("Enter Subject Two")  ;
+// var totalMarks = 100;
+// var marksSub2 = parseFloat(prompt("Enter Obtained Marks" + "  " + subject2))
+// document.write("<h2><tr>" + "<td>" + subject2 + "   " + "</td>" + "<td>" + totalMarks + " " + "</td>" + "  " + "<td>" + marksSub2 + "  " + "</td>" + "  " + marksSub2 / totalMarks * totalMarks+"%" + "</td>" + "<tr><h2>")
+
+
+// var subject3 = prompt("Enter Subject Three") ;
+// var totalMarks = 100;
+// var marksSub3 = parseFloat(prompt("Enter Obtained Marks"  + "  " + subject3))
+// document.write("<h2><tr>" + "<td>" + subject3 + "   " + "</td>" + "<td>" + totalMarks + " " + "</td>" + "  " + "<td>" + marksSub3 + "  " + "</td>" + "  " + marksSub3 / totalMarks * totalMarks+"%" + "</td>" + "<tr><h2>")
+// var totalobtain =  marksSub1 + marksSub2 + marksSub3
+
+// document.write( "300" + "  " + totalobtain + "  " +  totalobtain / 300 * 100 + "%" )
