@@ -237,23 +237,30 @@
 // document.write("5*9=", five * 9, "<br>");
 // document.write("5*10=", five * 10, "<br>") ;
 // }
+
 // ==== Q-6 ====
-// document.write("<tr><h1><th>subject  </th><th>Total Marks  </th><th>Obtain Marks  </th><th> Percentage </th></h1></tr> ")
-// var subject1 = prompt("Enter Subject One")  ;
-// var totalMarks = 100;
-// var marksSub1 = parseFloat(prompt("Enter Obtained Marks"  + "  " + subject1 ))
-// document.write("<h2><tr>" + "<td>" + subject1 + "   " + "</td>" + "<td>" + totalMarks + " " + "</td>" + "  " + "<td>" + marksSub1 + "  " + "</td>" + "  " + marksSub1 / totalMarks * totalMarks+"%" + "</td>" + "<tr><h2>")
+document.write("<table border='1'> ");
+document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>");
 
-// var subject2 = prompt("Enter Subject Two")  ;
-// var totalMarks = 100;
-// var marksSub2 = parseFloat(prompt("Enter Obtained Marks" + "  " + subject2))
-// document.write("<h2><tr>" + "<td>" + subject2 + "   " + "</td>" + "<td>" + totalMarks + " " + "</td>" + "  " + "<td>" + marksSub2 + "  " + "</td>" + "  " + marksSub2 / totalMarks * totalMarks+"%" + "</td>" + "<tr><h2>")
+ 
+var subject1 = prompt("Enter Subject One");
+var totalMarks = 100;
+var marksSub1 = parseFloat(prompt("Enter Obtained Marks for " + subject1));
 
+document.write("<tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + marksSub1 + "</td><td>" + (marksSub1 / totalMarks * 100) + "%</td></tr>");
 
-// var subject3 = prompt("Enter Subject Three") ;
-// var totalMarks = 100;
-// var marksSub3 = parseFloat(prompt("Enter Obtained Marks"  + "  " + subject3))
-// document.write("<h2><tr>" + "<td>" + subject3 + "   " + "</td>" + "<td>" + totalMarks + " " + "</td>" + "  " + "<td>" + marksSub3 + "  " + "</td>" + "  " + marksSub3 / totalMarks * totalMarks+"%" + "</td>" + "<tr><h2>")
-// var totalobtain =  marksSub1 + marksSub2 + marksSub3
+var subject2 = prompt("Enter Subject Two");
+var marksSub2 = parseFloat(prompt("Enter Obtained Marks for " + subject2));
 
-// document.write( "300" + "  " + totalobtain + "  " +  totalobtain / 300 * 100 + "%" )
+document.write("<tr><td>" + subject2 + "</td><td>" + totalMarks + "</td><td>" + marksSub2 + "</td><td>" + (marksSub2 / totalMarks * 100) + "%</td></tr>");
+
+var subject3 = prompt("Enter Subject Three");
+var marksSub3 = parseFloat(prompt("Enter Obtained Marks for " + subject3));
+
+document.write("<tr><td>" + subject3 + "</td><td>" + totalMarks + "</td><td>" + marksSub3 + "</td><td>" + (marksSub3 / totalMarks * 100) + "%</td></tr>");
+
+var totalObtain = marksSub1 + marksSub2 + marksSub3;
+
+document.write("<tr><td>Total</td><td>300</td><td>" + totalObtain + "</td><td>" + (totalObtain / 300 * 100) + "%</td></tr>");
+
+document.write("</table>");
