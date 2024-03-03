@@ -153,3 +153,49 @@
 // }
 
 // ===== Q-10 ======
+// var temperature = +prompt("what is temperature of your city");
+// if(temperature === 40){
+//     alert("its too Hot Outside")
+// }
+// else if(temperature === 30){
+//     alert("The Weather is Normal Today")
+// }
+// else if(temperature === 20){
+//     alert("the weather is cool today")
+// }
+// else if(temperature === 10){
+//     alert("OMG! The Weather is so cool Today ")
+// }
+
+// ==== Q-11 ====
+// var num1 = +prompt("enter fist number");
+// var operator = prompt("enter operator you want to use");
+// var num2 = +prompt("enter second number");
+// if(operator === "+"){
+//     alert("result is " + num1 + num2)
+// }
+// else if(operator === "-"){
+//     alert("result is " + num1 - num2)
+// }
+// else if(operator === "/"){
+//     alert("result is " + num1 / num2)
+// }
+// else if(operator === "%"){
+//     alert("result is " + num1 % num2)
+// }
+
+// ************************************Chapter-12-11****************************
+// ==== Q-1 ====
+// var character = prompt("enter a number or string to check character");
+// if (character >= "0" && character <= "9") {
+//   alert(character + " is a number");
+// }
+// else if(character >= "a" && character <= "z"){
+//     alert(character + " is a lowercase letter");
+// }
+// else if (character >= "A" && character <= "Z"){
+//     alert(character + " is an uppercase letter");
+// }
+// else{
+//     alert(character + " is Not a Number or String")
+// }
