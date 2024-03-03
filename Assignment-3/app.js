@@ -117,3 +117,39 @@
 // document.write("<b>" + " " + "Marks Obtained " + totalObtained + "</b></br>");
 // document.write("<b>" + " " + "Percentage " + percentage + "%" + "</b></br>");
 // document.write("<b>" + " " + "Grade: " + grade + "</b></br>");
+
+// ===== Q-7 =======
+// var secretNumber = 7;
+// var guessNumber = +prompt("Guess The Secret Number.(Range: 0 to 10)");
+// if(guessNumber === 7){
+//     alert("Bingoo! Correct Answere")
+// }
+// else if(guessNumber === 8){
+//     alert("Close Enough To The Correct Answere")
+// }
+// else if(guessNumber === 6){
+//     alert("Close Enough To The Correct Answere")
+// }
+// else{alert("Sorry You Are Out")}
+
+// ==== Q-8 ====
+// var num = +prompt(
+//   "Enter a number which should me divisble with 3 and answere must be without decimal (Range: 0 t0 20)"
+// );
+// if (num === 6 || num === 9 || num === 12 || num === 15 || num === 18) {
+//   alert("yeaa" + " " + num + " " + "correct Answere");
+// } else {
+//   alert(num + " " + "wrong answere");
+// }
+
+// ===== Q-9 ======
+// var num = +prompt("enter number to find even or odd number.(Range: 0 to 10)");
+// if(num === 2 || num === 4 || num === 6 || num === 8 || num === 10){
+//     alert(num + " " + "is Even Number")
+// }
+// else{
+//     alert(num + " " + "is odd Number")
+
+// }
+
+// ===== Q-10 ======
