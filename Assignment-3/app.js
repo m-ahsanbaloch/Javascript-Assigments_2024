@@ -199,3 +199,25 @@
 // else{
 //     alert(character + " is Not a Number or String")
 // }
+
+// ==== Q-2 ====
+// var firstInteger = +prompt("enter first Integer");
+// var secondInteger = +prompt("enter Second Integers");
+// if(firstInteger > secondInteger ){
+//     alert("firstinteger" + " " +" is larger than second integer");
+// }
+// else if(secondInteger > firstInteger){
+//     alert("second integer" + " " + "is larger than first integer")
+// }
+// else{
+//     alert("Both integers are equal")
+// }
+
+// =====Q3=====
+// var checkNumber = +prompt("enter a number to check wheter it is positive or negative");
+// if(checkNumber >  0){
+//     alert(checkNumber + " is Positive");
+// }
+// else if(checkNumber < 0){
+//     alert(checkNumber + " is Negative");
+// }
