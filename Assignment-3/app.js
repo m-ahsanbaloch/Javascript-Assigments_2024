@@ -221,3 +221,52 @@
 // else if(checkNumber < 0){
 //     alert(checkNumber + " is Negative");
 // }
+
+// ==== Q-4 ====
+// var character = prompt("Enter a character:");
+// var vowels = ["a", "e", "i", "o", "u"];
+// var check = false;
+
+// for (var i = 0; i < vowels.length; i++) {
+//   if (character === vowels[i]) {
+//     check = true;
+//     alert(character + " is a vowel");
+// }
+
+// }
+// if(check === false) {
+//     alert(character + " is not a vowel");
+// }
+
+// ==== Q-5 ====
+// var cPassword = "abc321.."
+// var password = prompt("please enter your password")
+// if(password === "" ){
+//     alert("please Enter Password")
+// }
+// else if(cPassword === password){
+//     alert("correct! the passwrod you enter is matched")
+// }
+// else{
+//     alert("you have entered invalid password")
+// }
+
+// ==== Q6 ====
+//  This if/else statement does not work. Try to fix it:
+// var greeting;
+// var hourq = +prompt("enter hour to see");
+// var hour = 13;
+// if (hourq < hour) {
+//   greeting = "Good morning";
+//   alert(greeting);
+// } else if (hourq > hour && hourq < 17) {
+//   greeting = "Good Day";
+//   alert(greeting);
+// } else if (hourq >= 17) {
+//   greeting = "good evenening";
+//   alert(greeting);
+// } else {
+//   greeting = "Good evening";
+//   alert(greeting)
+
+// }
