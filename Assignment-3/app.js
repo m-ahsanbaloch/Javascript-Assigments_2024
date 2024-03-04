@@ -270,3 +270,17 @@
 //   alert(greeting)
 
 // }
+
+// var time = prompt("Enter time to check greetings")
+// if(time >= "0000" && time <= "12"){
+// alert("Good Morning")
+// }
+// else if(time >= "12" && time <= "17"){
+//     alert("Good Afternoon")
+// }
+// else if(time >= "17" && time <= "21"){
+//     alert("Good Evening")
+// }
+// else if(time >= "21" && time <= "2359"){
+//     alert("Good Night Buddy")
+// }
