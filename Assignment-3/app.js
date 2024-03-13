@@ -191,10 +191,12 @@
 //   alert(character + " is a number");
 // }
 // else if(character >= "a" && character <= "z"){
-//     alert(character + " is a lowercase letter");
+//     alert(character.charCodeAt() + " is a lowercase letter");
+//     console.log(character.charCodeAt())
 // }
 // else if (character >= "A" && character <= "Z"){
-//     alert(character + " is an uppercase letter");
+//     alert(character.charCodeAt() + " is an uppercase letter");
+    
 // }
 // else{
 //     alert(character + " is Not a Number or String")
