@@ -14,7 +14,18 @@
 // // ===  Q-7 ===
 // var qualification = ["SSC", "HSC", "BCS","BS", "BCOM", "MS", "M.", "Phil.", "PhD"]
 // ===  Q-8 ===
-var sNames = ["michael","john","tony"];
-var sScores = [320 , 230 , 480];
-var student1 = document.write(sNames[0] + " is" + " " + sScores[0] + " " + sScores[0] * 100 / 500 + "%" + "</br>")
-var student2 = document.write(sNames[1] + " is" + " " + sScores[1] + " " + sScores[1] * 100 / 500 + "%" + "</br>")
+// var sNames = ["michael","john","tony"];
+// var sScores = [320 , 230 , 480];
+// var student1 = document.write(sNames[0] + " is" + " " + sScores[0] + " " + sScores[0] * 100 / 500 + "%" + "</br>")
+// var student2 = document.write(sNames[1] + " is" + " " + sScores[1] + " " + sScores[1] * 100 / 500 + "%" + "</br>")
+// var student2 = document.write(sNames[2] + " is" + " " + sScores[2] + " " + sScores[2] * 100 / 500 + "%" + "</br>")
+// === Q-9 ===
+var colorNames = [];
+document.write(colorNames[0]);
+// == A
+ask = prompt("what what color do you like to add at the beginning");
+colorNames  = colorNames.unshift(ask)
+document.write(colorNames)
+if(colorNames){
+    // console.log(colorNames)
+}
