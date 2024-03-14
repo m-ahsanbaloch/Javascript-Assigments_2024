@@ -21,11 +21,14 @@
 // var student2 = document.write(sNames[2] + " is" + " " + sScores[2] + " " + sScores[2] * 100 / 500 + "%" + "</br>")
 // === Q-9 ===
 var colorNames = [];
-document.write(colorNames[0]);
+document.write(colorNames);
 // == A
 ask = prompt("what what color do you like to add at the beginning");
-colorNames  = colorNames.unshift(ask)
-document.write(colorNames)
 if(colorNames){
-    // console.log(colorNames)
+colorNames.unshift(`First index Color Name is ::<b> ${ask}</b></br>`);
+if(colorNames){
+    var lastC = prompt("which color name would you like to add at end")
+    colorNames.push(`Last index Color Name is ::<b> ${lastC}</b>`)};
 }
+
+document.write(`${colorNames}`);
