@@ -21,14 +21,24 @@
 // var student2 = document.write(sNames[2] + " is" + " " + sScores[2] + " " + sScores[2] * 100 / 500 + "%" + "</br>")
 // === Q-9 ===
 var colorNames = [];
-document.write(colorNames);
+// document.write(colorNames);
 // == A
 ask = prompt("what what color do you like to add at the beginning");
 if(colorNames){
 colorNames.unshift(`First index Color Name is ::<b> ${ask}</b></br>`);
+}
+// document.write(`${colorNames} </br>`);
+
+// == B
 if(colorNames){
     var lastC = prompt("which color name would you like to add at end")
-    colorNames.push(`Last index Color Name is ::<b> ${lastC}</b>`)};
+    colorNames.push(`Last index Color Name is ::<b> ${lastC}</b>`);
 }
-
-document.write(`${colorNames}`);
+document.write(`${colorNames} </br>`);
+// == C
+var beg1More = prompt("enter one more color to add 1 more at beggining")
+var beg2More = prompt("enter one more color to add 1 more at beggining")
+if(beg1More && beg2More){
+    colorNames.unshift(` ${beg1More} ${beg2More} `)
+}
+document.write(`Two more Colors Added At beggining ::<b> ${beg1More} ${beg2More} </b>`);
