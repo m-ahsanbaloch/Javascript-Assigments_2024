@@ -24,21 +24,30 @@ var colorNames = [];
 // document.write(colorNames);
 // == A
 ask = prompt("what what color do you like to add at the beginning");
-if(colorNames){
-colorNames.unshift(`First index Color Name is ::<b> ${ask}</b></br>`);
+if (colorNames) {
+  colorNames.unshift(`First index Color Name is ::<b> ${ask}</b></br>`);
 }
 // document.write(`${colorNames} </br>`);
 
 // == B
-if(colorNames){
-    var lastC = prompt("which color name would you like to add at end")
-    colorNames.push(`Last index Color Name is ::<b> ${lastC}</b>`);
+if (colorNames) {
+  var lastC = prompt("which color name would you like to add at end");
+  colorNames.push(`Last index Color Name is ::<b> ${lastC}</b>`);
 }
 document.write(`${colorNames} </br>`);
 // == C
-var beg1More = prompt("enter one more color to add 1 more at beggining")
-var beg2More = prompt("enter one more color to add 1 more at beggining")
-if(beg1More && beg2More){
-    colorNames.unshift(` ${beg1More} ${beg2More} `)
+var beg1More = prompt("enter one more color to add 1 more at beggining");
+var beg2More = prompt("enter one more color to add 1 more at beggining");
+if (beg1More && beg2More) {
+  colorNames.unshift(` ${beg1More} `);
+  colorNames.unshift(` ${beg2More} `);
+
+  document.write(
+    `Color Added At beggining ::<b> ${beg1More}, ${beg2More} </b></br>`
+  );
 }
-document.write(`Two more Colors Added At beggining ::<b> ${beg1More} ${beg2More} </b>`);
+// == D
+document.write(`deleted first color name :: ${colorNames.shift("")}</br>`);
+// == E
+ var deletedLast = colorNames.pop("")
+ document.write(`deleted last array ${deletedLast}</br> `)
