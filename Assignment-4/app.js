@@ -132,4 +132,6 @@
 // document.write(`Out </br>` + devices.shift() + "</br>");
 
 var mobile = ["Apple","Samsung", "Motorola", "Nokia", "Sony", "Haier"]
-document.write(`<input type="drop"`)
+document.write(`    <select name="" id="">
+<option value="abcd">${mobile[0]} </option>
+</select>`)
