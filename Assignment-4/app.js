@@ -132,6 +132,6 @@
 // document.write(`Out </br>` + devices.shift() + "</br>");
 
 var mobile = ["Apple","Samsung", "Motorola", "Nokia", "Sony", "Haier"]
-document.write(`    <select name="" id="">
-<option value="abcd">${mobile[0]} </option>
-</select>`)
+for(i = 0 ; i < mobile.length ; i++){
+   document.write(`<select>
+   <option>${mobile[i]}</option></select>&nbsp&nbsp`)};
