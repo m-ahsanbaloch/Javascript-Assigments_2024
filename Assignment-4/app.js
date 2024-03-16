@@ -118,7 +118,6 @@
 // document.write(`Out </br>` + devices.shift() + "</br>");
 // document.write(`Out </br>` + devices.shift() + "</br>");
 
-
 // ==== Q-14
 // var devices = []
 // devices.push("Keyboard")
@@ -131,7 +130,8 @@
 // document.write(`Out </br>` + devices.shift() + "</br>");
 // document.write(`Out </br>` + devices.shift() + "</br>");
 
-var mobile = ["Apple","Samsung", "Motorola", "Nokia", "Sony", "Haier"]
-for(i = 0 ; i < mobile.length ; i++){
-   document.write(`<select>
-   <option>${mobile[i]}</option></select>&nbsp&nbsp`)};
+var mobile = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+for (i = 0; i < mobile.length; i++) {
+  document.write(`<select>
+   <option>${mobile[i]}</option></select>&nbsp&nbsp`);
+}
