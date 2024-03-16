@@ -39,7 +39,6 @@ if (colorNames) {
 }
 document.write(`First index Color Name is ::<b> ${colorNames}</b></br>`);
 
-
 // == B
 if (colorNames) {
   var lastC = prompt("which color name would you like to add at end");
@@ -63,15 +62,26 @@ if (beg1More && beg2More) {
 document.write(`deleted first color name :: ${colorNames.shift("")}</br>`);
 
 // == E
- var deletedLast = colorNames.pop("")
- document.write(`deleted last array ${deletedLast}</br> `)
+var deletedLast = colorNames.pop("");
+document.write(`deleted last array ${deletedLast}</br> `);
 
- // == F
- var addIndex = +prompt("on which index you like to add color ");
- var addCname = prompt("which color you like add on index " + addIndex );
-colorNames.splice(addIndex,0,addCname);
- document.write(`you selected index ${addIndex} </br> you selected color :${addCname} to added on index ${addIndex} </br> your result is index ${addIndex} and color ${addCname} </br>`)
+// == F
+var addIndex = +prompt("on which index you like to add color ");
+var addCname = prompt("which color you like add on index " + addIndex);
+colorNames.splice(addIndex, 0, addCname);
+document.write(
+  `you selected index ${addIndex} </br> you selected color :${addCname} to added on index ${addIndex} </br> your result is index ${addIndex} and color ${addCname} </br>`
+);
+var total = colorNames;
+document.write(`Result of Array is ${total} </br>`);
 
-  var total = colorNames
-  document.write(`Result of Array is ${total}`)
- 
+// == G
+var delIndex = +prompt("which index you want to delete");
+var quanIndex = +prompt("how many colors you want to delete");
+colorNames.splice(delIndex, quanIndex);
+document.write(`you selected index for deletion from ${delIndex} </br>
+you said you want to delete ${quanIndex} colors from index ${delIndex} </br>`)
+total = colorNames;
+document.write(`Result of updated array is ${total}`)
+
+// ==== Q-10 ====
