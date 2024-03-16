@@ -35,17 +35,17 @@ var colorNames = [];
 // == A
 ask = prompt("what what color do you like to add at the beginning");
 if (colorNames) {
-  colorNames.unshift(`First index Color Name is ::<b> ${ask}</b></br>`);
+  colorNames.unshift(ask);
 }
-// document.write(`${colorNames} </br>`);
+document.write(`First index Color Name is ::<b> ${colorNames}</b></br>`);
 
 
 // == B
 if (colorNames) {
   var lastC = prompt("which color name would you like to add at end");
-  colorNames.push(`Last index Color Name is ::<b> ${lastC}</b>`);
+  colorNames.push(lastC);
 }
-document.write(`${colorNames} </br>`);
+document.write(`Last index Color Name is ::<b> ${lastC}</b></br>`);
 
 // == C
 var beg1More = prompt("enter one more color to add 1 more at beggining");
@@ -69,6 +69,9 @@ document.write(`deleted first color name :: ${colorNames.shift("")}</br>`);
  // == F
  var addIndex = +prompt("on which index you like to add color ");
  var addCname = prompt("which color you like add on index " + addIndex );
- colorNames.splice(addIndex,addCname);
- document.write(`you selected index ${addIndex} </br> you selected color :${addCname} to add on index ${addIndex} </br> your result is index ${addIndex} and color ${addCname}`)
- document.write(colorNames)
+colorNames.splice(addIndex,0,addCname);
+ document.write(`you selected index ${addIndex} </br> you selected color :${addCname} to added on index ${addIndex} </br> your result is index ${addIndex} and color ${addCname} </br>`)
+
+  var total = colorNames
+  document.write(`Result of Array is ${total}`)
+ 
