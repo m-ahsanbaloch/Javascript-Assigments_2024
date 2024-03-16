@@ -87,9 +87,54 @@
 // document.write(`Result of updated array is ${total}`)
 
 // ==== Q-10 ====
-var studentScores = [320,230,480,120]
-document.write(`Students Scores Result before sorted ${studentScores} </br>`)
-studentScores.sort()
-document.write(`Result Of Sorted Array Is  ${studentScores}`);
+// var studentScores = [320,230,480,120]
+// document.write(`Students Scores Result before sorted ${studentScores} </br>`)
+// studentScores.sort()
+// document.write(`Result Of Sorted Array Is  ${studentScores}`);
 
 // ======= Question 11 =============
+// var cities = ["karachi","lahore" , "Islamabad" , "Quetta" , "peshawar"];
+// document.write(`Cities List:</br> ${cities}</br></br>`)
+// var selectedCities = cities.slice(2,4)
+// document.write(`Selected Cities List:</br> ${selectedCities}`)
+
+// === Q-12 ===
+// var arr = ["This ", "is ", "my ", "cat"];
+// document.write(`Array: </br> ${arr} </br></br>`);
+// var string = arr.join("");
+// document.write(`String: </br> ${string } </br></br>`);
+
+// === Q-13 ===
+var devices = []
+devices.push("Keyboard")
+devices.push("mouse")
+devices.push("printer")
+devices.push("monitor")
+
+document.write(`Devices </br>${devices}</br></br>`);
+
+document.write(`Out </br>` + devices.shift() + "</br>");
+document.write(`Out </br>` + devices.shift() + "</br>");
+document.write(`Out </br>` + devices.shift() + "</br>");
+document.write(`Out </br>` + devices.shift() + "</br>");
+
+
+
+
+
+
+// ==== Q-14
+// var devices = []
+// devices.push("Keyboard")
+// devices.push("mouse")
+// devices.push("printer")
+// devices.push("monitor")
+
+// document.write(`Devices </br>${devices}</br></br>`);
+
+// document.write(`Out </br>` + devices.shift() + "</br>");
+// document.write(`Out </br>` + devices.shift() + "</br>");
+// document.write(`Out </br>` + devices.shift() + "</br>");
+// document.write(`Out </br>` + devices.shift() + "</br>");
+
+
