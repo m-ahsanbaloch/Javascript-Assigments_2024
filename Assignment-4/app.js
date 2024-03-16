@@ -105,25 +105,6 @@
 // document.write(`String: </br> ${string } </br></br>`);
 
 // === Q-13 ===
-var devices = []
-devices.push("Keyboard")
-devices.push("mouse")
-devices.push("printer")
-devices.push("monitor")
-
-document.write(`Devices </br>${devices}</br></br>`);
-
-document.write(`Out </br>` + devices.shift() + "</br>");
-document.write(`Out </br>` + devices.shift() + "</br>");
-document.write(`Out </br>` + devices.shift() + "</br>");
-document.write(`Out </br>` + devices.shift() + "</br>");
-
-
-
-
-
-
-// ==== Q-14
 // var devices = []
 // devices.push("Keyboard")
 // devices.push("mouse")
@@ -138,3 +119,17 @@ document.write(`Out </br>` + devices.shift() + "</br>");
 // document.write(`Out </br>` + devices.shift() + "</br>");
 
 
+// ==== Q-14
+// var devices = []
+// devices.push("Keyboard")
+// devices.push("mouse")
+// devices.push("printer")
+// devices.push("monitor")
+// document.write(`Devices </br>${devices}</br></br>`);
+// document.write(`Out </br>` + devices.shift() + "</br>");
+// document.write(`Out </br>` + devices.shift() + "</br>");
+// document.write(`Out </br>` + devices.shift() + "</br>");
+// document.write(`Out </br>` + devices.shift() + "</br>");
+
+var mobile = ["Apple","Samsung", "Motorola", "Nokia", "Sony", "Haier"]
+document.write(`<input type="drop"`)
