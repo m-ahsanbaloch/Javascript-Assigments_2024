@@ -31,11 +31,31 @@
 
 // === (Q-6) ===
 // (A)
+// document.write(`<h3>Counting</h3>`)
 // for(var i = 0; i <= 15 -1; i++){
 //     document.write( ` ${i}`)
 // }
 
 // (B)
-for(var i = 10 ; i > 0 ; i--){
-    document.write(`<b>${i} &nbsp&nbsp</b>`)
-}
+// document.write(`<h3>Reverse-Counting</h3>`)
+// for(var i = 15 ; i > 0 ; i--){
+//     document.write(`<b>${i} &nbsp&nbsp</b>`)
+// }
+
+// (C)
+// document.write(`<h3>Even</h3>`)
+// for(var i = 2 ; i <= 20 ; i +=2){
+//     document.write(i + " ")
+// }
+
+// (D)
+// document.write(`<h3>Odd</h3>`)
+// for(var i = 1; i <= 20 ; i += 2){
+//     document.write(i)
+// }
+
+// document.write(`<h3>Series</h3>`)
+// for(var i = 2 ; i <= 20 ; i +=2){
+//         document.write(i  +  "k" + ". ")
+//      }
+    
