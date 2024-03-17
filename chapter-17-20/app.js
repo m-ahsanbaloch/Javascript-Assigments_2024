@@ -28,3 +28,14 @@
 // Element at index 2 is ${fruits[2]} </br>
 // Element at index 3 is ${fruits[3]} </br>
 // Element at index 4 is ${fruits[4]} </br>`)
+
+// === (Q-6) ===
+// (A)
+// for(var i = 0; i <= 15 -1; i++){
+//     document.write( ` ${i}`)
+// }
+
+// (B)
+for(var i = 10 ; i > 0 ; i--){
+    document.write(`<b>${i} &nbsp&nbsp</b>`)
+}
