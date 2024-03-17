@@ -59,3 +59,19 @@
 //         document.write(i  +  "k" + ". ")
 //      }
     
+// === (Q-7) ===
+
+var arr = ["cake", "apple", "pie", "cookie", "chips", "patties"];
+var search = prompt("which cake you are searching for enter here");
+var check = false
+for(var i = 0 ; i < arr.length; i++){
+    console.log(arr[2])
+    if(arr[i].slice(i , i + search.length) === search){
+        check = true
+        // var neww =  arr[i]
+       document.write(`${search} Found </br> ${arr[i]} at index ${i}`);
+    }
+}
+if(check === false){
+    document.write(`${search} Not found`)
+}
