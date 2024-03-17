@@ -66,13 +66,13 @@ var search = prompt("which cake you are searching for enter here");
 var check = false
 for(var i = 0 ; i < arr.length; i++){
     // console.log(arr[2])
-    if(arr[i].slice(i , i + search.length) == search){
+    if(arr.indexOf(search) !== -1 ){
         check = true
-        document.write(`${search} Found </br>`);
         
         // var neww =  arr[i]
+        document.write(`${search} Found </br>`);
     }
 }
-if(check === false){
-    document.write(`${search} Not found`)
-}
+// if(check === false){
+//     document.write(`${search} Not found`)
+// }
