@@ -79,6 +79,8 @@
 //     document.write(`${search} Not found`)
 // }
 
+// ---*----*----*-----*---- With-Out Method ---*---*---*--*---*---*---
+
 // var text = ["cake","apple","pie","cookie","chips","patties"];
 // var check = false
 // var search = prompt("enter what you like to search");
@@ -93,5 +95,25 @@
 //     }
 // }
 // if(check == false){
-//     console.log(`${search} Not Found`)
+//     console.log(`we are sorry ${search} is not in the bakery)
 // }
+
+// ==== (Q-8) ====
+// var a = [24, 53, 78, 91, 12];
+// var largestNumber = a[0]
+// for(var i = 0 ; i < a.length; i++){
+//     if(a[i] > largestNumber){
+//         largestNumber = a[i]
+//     }
+// } 
+// document.write(`Largest Number is<b> ${largestNumber}</b> </br></br> between </br> ${a}`)
+
+// ==== (Q-9) ====
+// var a = [24, 53, 78, 91, 12];
+// var smallestNumber = a[0]
+// for(var i = 0 ; i < a.length; i++){
+//     if(a[i] < smallestNumber){
+//         smallestNumber = a[i]
+//     }
+// } 
+// document.write(`smallest Number is<b> ${smallestNumber}</b> </br></br> between </br> ${a}`)
