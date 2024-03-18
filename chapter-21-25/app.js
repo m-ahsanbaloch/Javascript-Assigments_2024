@@ -42,11 +42,30 @@
 
 
 // ==== (Q-5) =====
-var string = "pakistani"
-for(var i = 0; i < string.length; i++){
-    if(string.slice(i,i + string.length) === "i"){
+// var string = "pakistani"
+// for(var i = 0; i < string.length; i++){
+//     if(string.slice(i,i + string.length) === "i"){
 
-    }
-}
-document.write(`string: ${string}</br>`)
-document.write(`Character at index ${string.indexOf("i")} is: "i"` )
+//     }
+// }
+// document.write(`string: ${string}</br>`)
+// document.write(`Character at index ${string.indexOf("i")} is: "i"` )
+
+// ==== (Q-6) =====
+// var fName = "Mohammad"
+// var lName = "Ahsan"
+// var fullName = `${fName} ${lName}`;
+// document.write(fullName); // Mohammad Ahsan
+
+// ==== (Q-7) ====
+// var city = "hyderabad"
+// var neww = ""
+// var check = false
+// for(var i = 0; i < city.length; i++){
+//     if(city.slice(i,i + city.length) === "hyderabad"){
+//         check = true
+//         neww = city.replace("hyder","islam")
+//     }
+// }
+// document.write(`City : ${city}</br>`)
+// document.write(`After Replacement: ${neww}`)
