@@ -13,8 +13,8 @@
 // for (var i = 0; i < phones.length; i++) {
 //   if (phones.slice(i, i + fPhone.length) === fPhone) {
 //     check = true;
-//     document.write(`my favourite phones is ${fPhone} </br>`);
-//     document.write(`index is ${phones.indexOf(fPhone)}`);
+//     document.write(`my favourite phones is : ${fPhone} </br>`);
+//     document.write(`length of string is ${phones.indexOf(fPhone)}`);
 //   }
 // }
 // if (check === false) {
