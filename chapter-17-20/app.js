@@ -117,3 +117,8 @@
 //     }
 // } 
 // document.write(`smallest Number is<b> ${smallestNumber}</b> </br></br> between </br> ${a}`)
+
+// ==== (Q-10) ===
+// for(var i = 5; i <= 100 ; i +=  5 ){
+//     document.write(`${i} `);
+// }
