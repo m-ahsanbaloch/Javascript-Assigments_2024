@@ -61,18 +61,37 @@
     
 // === (Q-7) ===
 
-var arr = ["cake", "apple", "pie", "cookie", "chips", "patties"];
-var search = prompt("which cake you are searching for enter here");
-var check = false
-for(var i = 0 ; i < arr.length; i++){
-    // console.log(arr[2])
-    if(arr.indexOf(search) !== -1 ){
-        check = true
+// ---------------- This is with method ------------
+
+// var arr = ["cake", "apple", "pie", "cookie", "chips", "patties"];
+// var search = prompt("which cake you are searching for enter here");
+// var check = false
+// for(var i = 0 ; i < arr.length; i++){
+//     // console.log(arr[2])
+//     if(arr.indexOf(search) !== -1 ){
+//         check = true
         
-        // var neww =  arr[i]
-        document.write(`${search} Found </br>`);
-    }
-}
+//         // var neww =  arr[i]
+//         document.write(`${search} Found </br>`);
+//     }
+// }
 // if(check === false){
 //     document.write(`${search} Not found`)
+// }
+
+// var text = ["cake","apple","pie","cookie","chips","patties"];
+// var check = false
+// var search = prompt("enter what you like to search");
+// for(i = 0; i < text.length; i++){
+//     text = text.toString()
+//     if(text.slice(i,i + search.length) === search){
+//         check = true
+//         text = text.split(',')
+//         document.write(`${search} is Available  `);
+//         document.write("at index " + text.indexOf(search))
+//         break
+//     }
+// }
+// if(check == false){
+//     console.log(`${search} Not Found`)
 // }
