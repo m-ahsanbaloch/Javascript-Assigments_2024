@@ -32,10 +32,21 @@
 // document.write(`Index of "n" is: ${country.indexOf("n")}`);
 
 // ==== (Q-4) =====
-var hello = "hello World";
-for (var i = 0; i < hello.length; i++) {
-    if(hello.lastIndexOf("l") !== -1){
+// var hello = "hello World";
+// for (var i = 0; i < hello.length; i++) {
+//     if(hello.lastIndexOf("l") !== -1){
+//     }
+// }
+// document.write(`<b>String is: ${hello}</br></br></b>`)
+// document.write(`<b>Last index of "l" is: ${hello.lastIndexOf("l")}</b>`)
+
+
+// ==== (Q-5) =====
+var string = "pakistani"
+for(var i = 0; i < string.length; i++){
+    if(string.slice(i,i + string.length) === "i"){
+
     }
 }
-document.write(`<b>String is: ${hello}</br></br></b>`)
-document.write(`<b>Last index of "l" is: ${hello.lastIndexOf("l")}</b>`)
+document.write(`string: ${string}</br>`)
+document.write(`Character at index ${string.indexOf("i")} is: "i"` )
