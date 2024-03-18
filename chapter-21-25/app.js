@@ -83,3 +83,9 @@
 // document.write(
 // `Old Message Was:: ${message}</br> After Replacing Message is ${neww}`
 // );
+
+// ==== (Q-9) =====
+var string = "472"
+var number = +string
+document.write(`value ${string} </br> Type: ${typeof(string)}</br>`)
+document.write(`value ${number} </br> Type: ${typeof(number)}`)
