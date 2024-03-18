@@ -20,3 +20,13 @@
 // if (check === false) {
 //   document.write(`Sorry this device is not available right now`);
 // }
+
+// ==== (Q-3) =====
+
+// var country = "pakistani"
+// for(var i = 0; i < country.length ; i++){
+// if(country.slice(i,i + country.length) === "n"){
+// }
+// }
+// document.write(`String ${country}</br>`)
+// document.write(`Index of "n" is: ${country.indexOf("n")}`);
