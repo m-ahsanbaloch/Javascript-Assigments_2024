@@ -40,7 +40,6 @@
 // document.write(`<b>String is: ${hello}</br></br></b>`)
 // document.write(`<b>Last index of "l" is: ${hello.lastIndexOf("l")}</b>`)
 
-
 // ==== (Q-5) =====
 // var string = "pakistani"
 // for(var i = 0; i < string.length; i++){
@@ -69,3 +68,18 @@
 // }
 // document.write(`City : ${city}</br>`)
 // document.write(`After Replacement: ${neww}`)
+
+// ==== (Q-8) =====
+// var message =
+//   "Ali and Sami are best friends. They play cricket and football together";
+//   var neww = "";
+// var check = false;
+// for (var i = 0; i < message.length; i++){
+//   if(message.slice(i,i + "and".length) === "and"){
+//     check = true;
+//     neww = message.replaceAll("and", "&");
+// }
+// }
+// document.write(
+// `Old Message Was:: ${message}</br> After Replacing Message is ${neww}`
+// );
