@@ -117,13 +117,15 @@
 // }
 
 // ===== Question 14 ======
-var arr =  ["cake", "apple,", "pie", "cookie", "chips", "patties"];
+var arr =  ["cake", "apple", "pie", "cookie", "chips", "patties"];
 var search = prompt("enter what you would like to search").toLowerCase()
 var check = false;
 for(i = 0; i < arr.length; i++){
     if(search === arr[i]){
         check = true;
-        console.log(arr[i])
+        var index = ""
+        console.log(`${arr[i]} is available at index ${index.indexOf(arr)}`)
+        
     }
 }
 if(check === false){
