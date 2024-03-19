@@ -99,3 +99,9 @@
 // var inp = prompt("enter words here");
 // var cap = inp.slice(0,1).toUpperCase() + inp.slice(1)
 // document.write(cap)
+
+// ==== (Q-12) ====
+
+var num = 35.36
+var string = num.toString().split(2)
+console.log(string)
