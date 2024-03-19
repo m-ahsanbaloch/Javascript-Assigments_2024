@@ -104,4 +104,13 @@
 
 // var num = 35.36
 // var string = num.toString().replace(".","")
-// console.log(string)
+// document.write(`Number: ${num} </br> Result: ${string}`)
+
+// ==== (Q-13) ====
+// var userInput = prompt("enter user name please.");
+// var check = false
+// if(userInput.charCodeAt(33) >= userInput.charCodeAt(47) !== -1){
+//     check = true
+//      userInput = prompt("please enter valid username without characters")
+//      document.write(`You entered ${userInput} `)
+// }
