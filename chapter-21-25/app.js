@@ -115,3 +115,17 @@
 // } else {
 //   document.write(`You entered ${userInput} `);
 // }
+
+// ===== Question 14 ======
+var arr =  ["cake", "apple,", "pie", "cookie", "chips", "patties"];
+var search = prompt("enter what you would like to search").toLowerCase()
+var check = false;
+for(i = 0; i < arr.length; i++){
+    if(search === arr[i]){
+        check = true;
+        console.log(arr[i])
+    }
+}
+if(check === false){
+    console.log(`Sorry ${search} is not available`)
+}
