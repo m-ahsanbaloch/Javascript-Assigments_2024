@@ -85,7 +85,12 @@
 // );
 
 // ==== (Q-9) =====
-var string = "472"
-var number = +string
-document.write(`value ${string} </br> Type: ${typeof(string)}</br>`)
-document.write(`value ${number} </br> Type: ${typeof(number)}`)
+// var string = "472"
+// var number = +string
+// document.write(`value ${string} </br> Type: ${typeof(string)}</br>`)
+// document.write(`value ${number} </br> Type: ${typeof(number)}`)
+
+// ==== (Q-10) ====
+// var cap = prompt("Enter small alphabet words and see how it capitalize");
+// var result = cap.toUpperCase()
+// document.write(result)
