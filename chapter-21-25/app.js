@@ -94,3 +94,8 @@
 // var cap = prompt("Enter small alphabet words and see how it capitalize");
 // var result = cap.toUpperCase()
 // document.write(result)
+
+// ==== (Q-11) ====
+// var inp = prompt("enter words here");
+// var cap = inp.slice(0,1).toUpperCase() + inp.slice(1)
+// document.write(cap)
