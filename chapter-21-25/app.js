@@ -102,6 +102,6 @@
 
 // ==== (Q-12) ====
 
-var num = 35.36
-var string = num.toString().split(2)
-console.log(string)
+// var num = 35.36
+// var string = num.toString().replace(".","")
+// console.log(string)
