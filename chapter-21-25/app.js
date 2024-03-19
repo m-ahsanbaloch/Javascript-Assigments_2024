@@ -108,9 +108,10 @@
 
 // ==== (Q-13) ====
 // var userInput = prompt("enter user name please.");
-// var check = false
-// if(userInput.charCodeAt(33) >= userInput.charCodeAt(47) !== -1){
-//     check = true
-//      userInput = prompt("please enter valid username without characters")
-//      document.write(`You entered ${userInput} `)
+// var check = false;
+// if (userInput.charCodeAt() >= 33 && userInput.charCodeAt() <= 47) {
+//   check = true;
+//   alert("please enter valid username without characters");
+// } else {
+//   document.write(`You entered ${userInput} `);
 // }
