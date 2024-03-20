@@ -130,4 +130,4 @@ for(i = 0; i < arr.length; i++){
 }
 if(check === false){
     console.log(`Sorry ${search} is not available`)
-}
+} 
