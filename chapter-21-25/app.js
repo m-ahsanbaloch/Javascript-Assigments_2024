@@ -124,10 +124,10 @@ for(i = 0; i < arr.length; i++){
     if(search === arr[i]){
         check = true;
         var index = ""
-        console.log(`${arr[i]} is available at index ${index.indexOf(arr)}`)
+        document.write(`${arr[i]} is available at index ${arr.indexOf(search)} In out bakery`)
         
     }
 }
 if(check === false){
-    console.log(`Sorry ${search} is not available`)
+    document.write(`Sorry ${search} is not available in out bakery`)
 } 
