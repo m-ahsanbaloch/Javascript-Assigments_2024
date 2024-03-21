@@ -135,3 +135,11 @@
 
 
 // ==== (Q-15) ====
+var num = 0 > 10 || 0 < 10
+// console.log(num)
+num = num.toString()
+var user = prompt("enter password")
+if(user !== 0 > 10  &&0 < 10){
+    alert("please enter alphabets first")
+}  
+// console.log(num[i])
