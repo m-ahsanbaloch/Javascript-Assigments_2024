@@ -117,17 +117,21 @@
 // }
 
 // ===== Question 14 ======
-var arr =  ["cake", "apple", "pie", "cookie", "chips", "patties"];
-var search = prompt("enter what you would like to search").toLowerCase()
-var check = false;
-for(i = 0; i < arr.length; i++){
-    if(search === arr[i]){
-        check = true;
-        var index = ""
-        document.write(`${arr[i]} is available at index ${arr.indexOf(search)} In out bakery`)
-        
-    }
-}
-if(check === false){
-    document.write(`Sorry ${search} is not available in out bakery`)
-} 
+// var arr = ["cake", "apple", "pie", "cookie", "chips", "patties"];
+// var search = prompt("enter what you would like to search").toLowerCase();
+// var check = false;
+// for (i = 0; i < arr.length; i++) {
+//   if (search === arr[i]) {
+//     check = true;
+//     var index = "";
+//     document.write(
+//       `${arr[i]} is available at index ${arr.indexOf(search)} In out bakery`
+//     );
+//   }
+// }
+// if (check === false) {
+//   document.write(`Sorry ${search} is not available in out bakery`);
+// }
+
+
+// ==== (Q-15) ====
