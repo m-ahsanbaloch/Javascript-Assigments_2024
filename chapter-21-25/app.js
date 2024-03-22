@@ -135,11 +135,16 @@
 
 
 // ==== (Q-15) ====
-var num = 0 > 10 || 0 < 10
+var num = ""
 // console.log(num)
 num = num.toString()
 var user = prompt("enter password")
-if(user !== 0 > 10  &&0 < 10){
-    alert("please enter alphabets first")
+if(user.length > 6){
+alert("It must at least 6 characters long")
 }  
+if(user.charCodeAt() > 45  && user.charCodeAt() < 58){
+    alert("please enter alphabets first")
+}
+var storedPassword = user
 // console.log(num[i])
+console.log(storedPassword)
