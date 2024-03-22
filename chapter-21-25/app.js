@@ -169,16 +169,16 @@
 // document.write(res)
 
 // Declare a string
-var str = "the quick brown fox jumps over the lazy dog";
+// var str = "the quick brown fox jumps over the lazy dog";
 
-var words = str.split(' ');
+// var words = str.split(' ');
 
-var count = 0;
+// var count = 0;
 
-for(i = 0;i < words.length;i++){
-    if(words[i] == "the"){
-        count++
-    }
-}
-document.write(`Text: the quick brown fox jumps over the lazy dog <br>`)
-document.write(`There are ${count} Occurence(s) of Words 'the'`)
+// for(i = 0;i < words.length;i++){
+//     if(words[i] == "the"){
+//         count++
+//     }
+// }
+// document.write(`Text: the quick brown fox jumps over the lazy dog <br>`)
+// document.write(`There are ${count} Occurence(s) of Words 'the'`) 
