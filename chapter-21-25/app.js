@@ -159,3 +159,12 @@
 //     document.write(arr[i] + "</br>" )
     
 // }
+
+// ==== (Q-17) =====
+var namee = "pakistan";
+for(i = 0; i < namee.length;i++){
+    
+ var res = namee[7]
+}
+document.write(res)
+
