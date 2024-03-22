@@ -161,10 +161,24 @@
 // }
 
 // ==== (Q-17) =====
-var namee = "pakistan";
-for(i = 0; i < namee.length;i++){
+// var namee = "pakistan";
+// for(i = 0; i < namee.length;i++){
     
- var res = namee[7]
-}
-document.write(res)
+//  var res = namee[7]
+// }
+// document.write(res)
 
+// Declare a string
+var str = "the quick brown fox jumps over the lazy dog";
+
+var words = str.split(' ');
+
+var count = 0;
+
+for(i = 0;i < words.length;i++){
+    if(words[i] == "the"){
+        count++
+    }
+}
+document.write(`Text: the quick brown fox jumps over the lazy dog <br>`)
+document.write(`There are ${count} Occurence(s) of Words 'the'`)
