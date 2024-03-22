@@ -135,16 +135,19 @@
 
 
 // ==== (Q-15) ====
-var num = ""
-// console.log(num)
-num = num.toString()
-var user = prompt("enter password")
-if(user.length > 6){
-alert("It must at least 6 characters long")
-}  
-if(user.charCodeAt() > 45  && user.charCodeAt() < 58){
-    alert("please enter alphabets first")
-}
-var storedPassword = user
-// console.log(num[i])
-console.log(storedPassword)
+// var num = ""
+// // console.log(num)
+// num = num.toString()
+// var user = prompt("enter password")
+// if(user.length > 6){
+// alert("It must at least 6 characters long")
+// }  
+// if(user.charCodeAt() > 45  && user.charCodeAt() < 58){
+//     alert("please enter alphabets first")
+// }
+// else if(user === ""){
+//     alert("please enter valid password")
+// }
+// var storedPassword = user
+// // console.log(num[i])
+// console.log(storedPassword)
