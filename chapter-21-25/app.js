@@ -168,7 +168,7 @@
 // }
 // document.write(res)
 
-// Declare a string
+// ==== (Q-18) ====
 // var str = "the quick brown fox jumps over the lazy dog";
 
 // var words = str.split(' ');
