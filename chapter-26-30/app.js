@@ -18,5 +18,10 @@
 // document.write(`the absolute value of ${num} is : ${Math.abs(num)}`)
 
 // ==== (Q-4) ====
+// var random = Math.round(Math.random() * 6) 
+// document.write(random ) 
+
+// ==== (Q-5) ====
+
 var random = Math.round(Math.random() * 2) 
 document.write(random ) 
