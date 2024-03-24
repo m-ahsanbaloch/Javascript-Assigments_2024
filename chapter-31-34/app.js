@@ -40,8 +40,10 @@
 // ];
 // var date = new Date()
 // var day = date.getDay()
-// days = days[day]
+// days = days[day].toLowerCase()
 // console.log(days)
-// if(days === "Monday"){
+// var check = false
+// if(days === "saturday" || days === "sun"){
+//     check = true
 //     document.write(`ohh today is ${days}  and I am feeling very productive.`)
 // }
