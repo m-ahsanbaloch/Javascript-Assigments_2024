@@ -47,3 +47,10 @@
 //     check = true
 //     document.write(`ohh today is ${days}  and I am feeling very productive.`)
 // }
+
+var now = new Date()
+var day = now.getDate()
+console.log(day)
+if(day < 16  ){
+    console.log(`first fifteen days`)
+}else{console.log(`today is ${day} of month`)}
