@@ -22,10 +22,13 @@
 // document.write(random ) 
 
 // ==== (Q-5) ====
-// var random = 1
 //  random = Math.round(Math.random() + 1) 
 // if(random == 1){
 //     document.write(`random Coin value: Heads`)
 // }
 // else{document.write(`random Coin value: Tails`)}
 // // document.write(random ) 
+
+// ==== (Q-6) ====
+ random = Math.round(Math.random() * 100);
+ document.write(random)
