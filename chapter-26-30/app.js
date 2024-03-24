@@ -18,16 +18,16 @@
 // document.write(`the absolute value of ${num} is : ${Math.abs(num)}`)
 
 // ==== (Q-4) ====
-// var random = Math.round(Math.random() * 6) 
-// document.write(random ) 
+// var random = Math.round(Math.random() * 6)
+// document.write(random )
 
 // ==== (Q-5) ====
-//  random = Math.round(Math.random() + 1) 
+//  random = Math.round(Math.random() + 1)
 // if(random == 1){
 //     document.write(`random Coin value: Heads`)
 // }
 // else{document.write(`random Coin value: Tails`)}
-// // document.write(random ) 
+// // document.write(random )
 
 // ==== (Q-6) ====
 //  random = Math.round(Math.random() * 100);
@@ -36,3 +36,17 @@
 // ==== (Q-7) ====
 // var user = +prompt("Enter your weight");
 // document.write(`Yout weight is ${user} kilograms.`)
+
+// ==== (Q-8) ====
+// var secret = [3, 5, 7, 8, 9];
+// var userInput = +prompt("enter one number to see is it secret number or not")
+// var flag = false
+// for (i = 0; i < secret.length; i++) {
+//     if(userInput ===  secret[i]){
+//         flag = true
+//        document.write("Congratulations Youre right !!")
+//     }
+// }
+// if(flag === false){
+//     document.write("Sorry You Guessed wronge Number")
+// }
