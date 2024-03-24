@@ -5,10 +5,24 @@
 
 // ==== (Q-2) ====
 
-var months = ["jan","feb","march","april","may","june","july","august","sep","oct","nov","dec"]
+// var months = ["jan","feb","march","april","may","june","july","august","sep","oct","nov","dec"]
 
-   var date = new Date()
-   var month = date.getMonth()
-   months = months[month]
-    document.write(months)
+//    var date = new Date()
+//    var month = date.getMonth()
+//    months = months[month]
+//     document.write(months)
 
+// ==== (Q-3) =====
+// var days = [
+//   "sun",
+//   "Monday",
+//   "tuesday",
+//   "wednesday",
+//   "thursday",
+//   "friday",
+//   "saturday",
+// ];
+// var date = new Date();
+// var day = date.getDay();
+// days = days[day];
+// document.write(days);
