@@ -26,3 +26,22 @@
 // var day = date.getDay();
 // days = days[day];
 // document.write(days);
+
+// ==== (Q-4) ====
+
+// var days = [
+//   "sun",
+//   "Monday",
+//   "tuesday",
+//   "wednesday",
+//   "thursday",
+//   "friday",
+//   "saturday",
+// ];
+// var date = new Date()
+// var day = date.getDay()
+// days = days[day]
+// console.log(days)
+// if(days === "Monday"){
+//     document.write(`ohh today is ${days}  and I am feeling very productive.`)
+// }
