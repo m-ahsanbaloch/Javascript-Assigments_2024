@@ -30,5 +30,9 @@
 // // document.write(random ) 
 
 // ==== (Q-6) ====
- random = Math.round(Math.random() * 100);
- document.write(random)
+//  random = Math.round(Math.random() * 100);
+//  document.write(random)
+
+// ==== (Q-7) ====
+// var user = +prompt("Enter your weight");
+// document.write(`Yout weight is ${user} kilograms.`)
