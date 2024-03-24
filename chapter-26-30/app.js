@@ -22,6 +22,10 @@
 // document.write(random ) 
 
 // ==== (Q-5) ====
-
-var random = Math.round(Math.random() * 2) 
-document.write(random ) 
+// var random = 1
+//  random = Math.round(Math.random() + 1) 
+// if(random == 1){
+//     document.write(`random Coin value: Heads`)
+// }
+// else{document.write(`random Coin value: Tails`)}
+// // document.write(random ) 
