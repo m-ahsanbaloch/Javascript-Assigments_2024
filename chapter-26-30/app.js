@@ -50,3 +50,4 @@
 // if(flag === false){
 //     document.write("Sorry You Guessed wronge Number")
 // }
+   
