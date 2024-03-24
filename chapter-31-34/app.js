@@ -1,2 +1,4 @@
-var date = Date()
-document.write(date)
+// ==== (Q-1) ====
+
+var date = new Date()
+document.write(rightnow)
