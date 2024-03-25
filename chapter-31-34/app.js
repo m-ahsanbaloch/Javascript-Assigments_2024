@@ -75,3 +75,4 @@ var minutes = date.getTime();
 minutes = Math.floor(minutes / 86400000);
 document.write(`Elapsed minutes since ${new Date(length)}: ${minutes} Days`);
 var ms = date.getTime();
+ 
