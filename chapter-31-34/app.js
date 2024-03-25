@@ -48,9 +48,29 @@
 //     document.write(`ohh today is ${days}  and I am feeling very productive.`)
 // }
 
-var now = new Date()
-var day = now.getDate()
-console.log(day)
-if(day < 16  ){
-    console.log(`first fifteen days`)
-}else{console.log(`today is ${day} of month`)}
+// ==== (Q-5) ====
+// var now = new Date();
+// var day = now.getDate();
+// console.log(day);
+// if (day < 16) {
+//   console.log(`first fifteen days`);
+// } else {
+//   console.log(`today is ${day} of month`);
+// }
+
+// ==== (Q-6) =====
+
+var date = new Date();
+var string = date.toString();
+for (i = 0; i < string.length; i++) {
+  if (
+    string.slice(i, i + "Pakistan Standard Time".length) ===
+    "Pakistan Standard Time"
+  ) {
+    neww = string.replace("Pakistan Standard Time", "PKT");
+    document.write(neww + "<br>");
+  }
+}
+var minutes = date.getMinutes();
+var ms = date.getMilliseconds("");
+document.write(ms);
