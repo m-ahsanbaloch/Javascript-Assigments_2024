@@ -71,6 +71,7 @@ for (i = 0; i < string.length; i++) {
     document.write(neww + "<br>");
   }
 }
-var minutes = date.getMinutes();
-var ms = date.getMilliseconds("");
-document.write(ms);
+var minutes = date.getTime();
+minutes = Math.floor(minutes / 86400000);
+document.write(`Elapsed minutes since ${new Date(length)}: ${minutes} Days`);
+var ms = date.getTime();
