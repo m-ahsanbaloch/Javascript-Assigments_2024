@@ -60,7 +60,7 @@
 
 // ==== (Q-6) =====
 
-var date = new Date();
+var date =  new Date();
 var string = date.toString();
 for (i = 0; i < string.length; i++) {
   if (
@@ -75,4 +75,5 @@ var minutes = date.getTime();
 minutes = Math.floor(minutes / 86400000);
 document.write(`Elapsed minutes since ${new Date(length)}: ${minutes} Days`);
 var ms = date.getTime();
+console.log(ms)
    
