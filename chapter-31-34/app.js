@@ -68,12 +68,13 @@ for (i = 0; i < string.length; i++) {
     "Pakistan Standard Time"
   ) {
     neww = string.replace("Pakistan Standard Time", "PKT");
-    document.write(neww + "<br>");
+    // document.write(neww + "<br>");
   }
 }
 var minutes = date.getTime();
-minutes = Math.floor(minutes );
-document.write(`Elapsed miliseconds since ${new Date(length)}: ${minutes} Days`);
+minutes = minutes.toString()
+minutes = Math.floor(minutes);
+document.write(`Elapsed miliseconds since ${new Date(length).toString().slice(0,14)}: ${minutes} Days`);
 var ms = date.getTime();
 console.log(ms)
    
