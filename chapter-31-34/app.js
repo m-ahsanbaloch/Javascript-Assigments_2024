@@ -74,7 +74,11 @@ for (i = 0; i < string.length; i++) {
 var minutes = date.getTime();
 minutes = minutes.toString()
 minutes = Math.floor(minutes);
-document.write(`Elapsed miliseconds since ${new Date(length).toString().slice(0,14)}: ${minutes} Days`);
+document.write(`Elapsed miliseconds since ${new Date(length).toString().slice(0,15)}: ${minutes}  <br>`);
 var ms = date.getTime();
-console.log(ms)
+//  ms = ms.toString()
+ ms = Math.floor(ms) / 1000 / 60  
+ document.write(`Elapsed minutes since ${new Date(length).toString().slice(0,15)}: ${ms} `);
+
+
    
