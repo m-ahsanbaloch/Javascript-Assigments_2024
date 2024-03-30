@@ -100,5 +100,7 @@
 // var conversion = Math.floor(minus / (1000 * 60 * 60  * 24 ))
 // document.write(`${conversion} days left to Eid ul Adha`)
 
-
+for(i = 1; i <= 10; i++){
+    document.write(`2 x ${i} = ${i * 2} <br>`)
+}
  
