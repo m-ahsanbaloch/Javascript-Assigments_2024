@@ -99,3 +99,6 @@
 // var minus = eidDate - dateNow                              //Days left to Eid ul Adha 2024
 // var conversion = Math.floor(minus / (1000 * 60 * 60  * 24 ))
 // document.write(`${conversion} days left to Eid ul Adha`)
+
+
+ 
