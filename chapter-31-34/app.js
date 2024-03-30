@@ -60,25 +60,42 @@
 
 // ==== (Q-6) =====
 
-var date =  new Date("15 sep,1989");
-var string = date.toString();
-for (i = 0; i < string.length; i++) {
-  if (
-    string.slice(i, i + "Pakistan Standard Time".length) ===
-    "Pakistan Standard Time"
-  ) {
-    neww = string.replace("Pakistan Standard Time", "PKT");
-    // document.write(neww + "<br>");
-  }
-}
-var minutes = date.getTime();
-minutes = minutes.toString()
-minutes = Math.floor(minutes);
-document.write(`Elapsed miliseconds since ${new Date(length).toString().slice(0,15)}: ${minutes}  <br>`);
-var ms = date.getTime();
-//  ms = ms.toString()
- ms = Math.floor(ms) / 1000 / 60  
- document.write(`Elapsed minutes since ${new Date(length).toString().slice(0,15)}: ${ms} `);
+// var date =  new Date("15 sep,1989");
+// var string = date.toString();
+// for (i = 0; i < string.length; i++) {
+//   if (
+//     string.slice(i, i + "Pakistan Standard Time".length) ===
+//     "Pakistan Standard Time"
+//   ) {
+//     neww = string.replace("Pakistan Standard Time", "PKT");
+//     // document.write(neww + "<br>");
+//   }
+// }
+// var minutes = date.getTime();
+// minutes = minutes.toString()
+// minutes = Math.floor(minutes);
+// document.write(`Elapsed miliseconds since ${new Date(length).toString().slice(0,15)}: ${minutes}  <br>`);
+// var ms = date.getTime();
+// //  ms = ms.toString()
+//  ms = Math.floor(ms) / 1000 / 60  
+//  document.write(`Elapsed minutes since ${new Date(length).toString().slice(0,15)}: ${ms} `);
 
 
+//  ==== (Q-7)=====
+// var time = new Date().getHours()
+// if(time < 12 ){
+//   document.write(`It is Am now`)
+// }
+// else{document.write(`it is Pm now`)
+// }
    
+// ==== (Q-8)========
+// var laterDate = new Date("31 dec, 2020")
+// document.write(laterDate)
+
+// ====  (Q-9)====================
+// var eidDate = new Date("15 june, 2024").getTime();
+// var dateNow = new Date().getTime();
+// var minus = eidDate - dateNow                              //Days left to Eid ul Adha 2024
+// var conversion = Math.floor(minus / (1000 * 60 * 60  * 24 ))
+// document.write(`${conversion} days left to Eid ul Adha`)
