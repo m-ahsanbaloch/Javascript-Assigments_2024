@@ -100,7 +100,9 @@
 // var conversion = Math.floor(minus / (1000 * 60 * 60  * 24 ))
 // document.write(`${conversion} days left to Eid ul Adha`)
 
-for(i = 1; i <= 10; i++){
-    document.write(`2 x ${i} = ${i * 2} <br>`)
-}
- 
+// ==== (Q-10)===========
+var dec = new Date("5 dec,2015").getTime()
+var jan = new Date("1 jan,2015").getTime()
+var minus = dec - jan
+var conversion = minus /1000 / 60
+document.write(conversion)
