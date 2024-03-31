@@ -77,9 +77,8 @@
 // document.write(`Elapsed miliseconds since ${new Date(length).toString().slice(0,15)}: ${minutes}  <br>`);
 // var ms = date.getTime();
 // //  ms = ms.toString()
-//  ms = Math.floor(ms) / 1000 / 60  
+//  ms = Math.floor(ms) / 1000 / 60
 //  document.write(`Elapsed minutes since ${new Date(length).toString().slice(0,15)}: ${ms} `);
-
 
 //  ==== (Q-7)=====
 // var time = new Date().getHours()
@@ -88,7 +87,7 @@
 // }
 // else{document.write(`it is Pm now`)
 // }
-   
+
 // ==== (Q-8)========
 // var laterDate = new Date("31 dec, 2020")
 // document.write(laterDate)
@@ -108,8 +107,20 @@
 // var conversion = minus /1000 / 60
 // document.write(`<b>On reference Date ${date},<br>${conversion} seconds had passed since begining of 2015</b>`)
 
+// ==== (Q-11)===
 
-var date = new Date()
-var hours = date.getHours()
-date.setHours(date.getHours() - 1 );
-document.write(date)
+// var currentDate = new Date()
+// var date = new Date()
+// var hours = date.getHours()
+// date.setHours(date.getHours() - 1 );
+// document.write(`Current Date: ${currentDate}<br>
+// 1 hour ago, it was ${date}`)
+
+// ==== (Q-12) ====
+
+// var age = prompt("enter your date of birth")
+// var currentDate = new Date().getTime()
+// var dateOfBirth = new Date(age).getTime()
+// var minus = currentDate - dateOfBirth
+// var conver = Math.floor(minus / (1000 * 60 * 60 * 24 * 365))
+// document.write(conver)
