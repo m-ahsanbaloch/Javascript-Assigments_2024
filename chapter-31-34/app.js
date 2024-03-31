@@ -124,3 +124,21 @@
 // var minus = currentDate - dateOfBirth
 // var conver = Math.floor(minus / (1000 * 60 * 60 * 24 * 365))
 // document.write(conver)
+
+// ==== (Q-13) ===
+// var customerName = prompt("Enter Your Name");
+// document.write(`Customer Name: ${customerName}<br>`)
+// var monthNames = ["january","february","march","april","may","june","july","august","september","november","december"];
+// var month = new Date().getMonth();
+// monthNames= monthNames[month];
+// document.write(`Month: ${monthNames} <br>`)
+// var units = +prompt("how many units you consumed");
+// document.write(`Number of Units: ${units} <br>`)
+// var unitCharges = 16
+// document.write(`Charges of Units ${unitCharges} <br>`)
+// var netAmountWdd = units * unitCharges;
+// document.write(`Net Amount Payable (Within Due Date) ${netAmountWdd} <br>`)
+// var latePayment = 350
+// document.write(`Late Payment Surcharge ${latePayment} <br>`);
+// var grossAmount = netAmountWdd + latePayment
+// document.write(`Gross Amount Payable(After Due Date): ${grossAmount}`)
