@@ -107,3 +107,4 @@
 // var minus = dec - jan
 // var conversion = minus /1000 / 60
 // document.write(`<b>On reference Date ${date},<br>${conversion} seconds had passed since begining of 2015</b>`)
+var date =
