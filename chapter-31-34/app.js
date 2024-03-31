@@ -101,8 +101,9 @@
 // document.write(`${conversion} days left to Eid ul Adha`)
 
 // ==== (Q-10)===========
-var dec = new Date("5 dec,2015").getTime()
-var jan = new Date("1 jan,2015").getTime()
-var minus = dec - jan
-var conversion = minus /1000 / 60
-document.write(conversion)
+// var date = new  Date("5 dec, 2015");
+// var dec = new Date("5 dec,2015").getTime()
+// var jan = new Date("1 jan,2015").getTime()
+// var minus = dec - jan
+// var conversion = minus /1000 / 60
+// document.write(`<b>On reference Date ${date},<br>${conversion} seconds had passed since begining of 2015</b>`)
