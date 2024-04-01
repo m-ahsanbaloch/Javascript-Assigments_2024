@@ -6,6 +6,7 @@
 
 // date();
 
+// ===== (Q-2) ==
 // var firstName = "Ahsan";
 // var lastName = "Baloch";
 
@@ -15,8 +16,16 @@
 // }
 // fullname();
 
-function sum(a,b){
-    return `${a} ${b}`
-}
-// sum(10,11)
-document.write(sum(10,11))
+// ======= (Q-3) ==========
+// function sum(a,b){
+//     return `${a} ${b}`
+// }
+// // sum(10,11)
+// document.write(sum(10,11))
+
+// function calc(num1,operator, num2 ) {
+//     if(operator === "+"){
+//         return num1 + num2
+//     }
+// }
+// document.write(calc(2 , "+" ,3))
