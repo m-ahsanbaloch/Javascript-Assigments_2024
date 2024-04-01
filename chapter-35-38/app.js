@@ -14,3 +14,9 @@
 //     document.write(fullName);
 // }
 // fullname();
+
+function sum(a,b){
+    return `${a} ${b}`
+}
+// sum(10,11)
+document.write(sum(10,11))
