@@ -23,9 +23,18 @@
 // // sum(10,11)
 // document.write(sum(10,11))
 
+// ========= (Q-4)
 // function calc(num1,operator, num2 ) {
 //     if(operator === "+"){
 //         return num1 + num2
 //     }
 // }
 // document.write(calc(2 , "+" ,3))
+
+// ===== (Q-5) =====
+// function square(x) {
+//     return x * x
+//   }
+//   document.write(square())
+
+
