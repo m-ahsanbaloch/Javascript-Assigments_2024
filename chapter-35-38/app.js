@@ -37,4 +37,14 @@
 //   }
 //   document.write(square())
 
+// ==== === (Q-6) =======
 
+// var start = +prompt("enter start number")
+// var end = +prompt("Enter End Number")
+// function loop(start,end){
+//     for(i = start ; i <= end; i++){
+        
+//     }
+//     return i -1
+// }
+// document.write(`${loop(start,end)} <br>`) 
